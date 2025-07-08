@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Careers at Tech Pearl Creators</title>
+        <style>
+           @media screen and (min-width:320px) {
+             .body{
+                width: 100%;
+                height: 90px;
+                font-family: 'Intern',sans-serif;
+            }
+            .navtop{
+                width: 104%;
+                display: flex;
+                background-color: black;
+                margin-top: -15px;
+                margin-left: -5px;
+              border: 20px solid black;
+            }
+            .navtop img{
+                width: 150px;
+                height: 150px;
+                border-radius:52% ;
+                margin-left: 20px;
+                margin-top: 3px;
+            }
+            .navtop h1{
+                margin-top: 50px;
+                margin-left: 25px;
+                font-size:55px;
+                font-weight: 400;
+                font-family: 'Intern',sans-serif;
+                color: white;
+            }
+            .banner{
+                width: 100%;
+            }
+            .banner img{
+                width: 108%;
+                height: 800px;
+                margin-left: -5px;
+            }
+            .form {
+                width: 100%;
+                margin-top: 150px;
+            }
+            .top{
+                width: 100%;
+            }
+            .top h3{
+                font-family: 'Intern',sans-serif;
+                text-decoration:none;
+                width: 90%;
+                font-size: 28px;
+                font-weight: 400;
+                margin-left: 50px;
+            }
+            .top h4{
+                width: 95%;
+                font-family: 'Intern',sans-serif;
+                font-size: 17px;
+                font-weight: 300;
+                margin-top: 50px;
+                margin-left: 40px;
+            }
+            .main-form{
+                margin-top: 150px;
+                width: 95%;
+                height: 2100px;
+                margin-left: 45px;
+                border: 8px solid black;
+                border-radius: 40px;
+            }
+            .main-form h2{
+                width: 90%;
+                font-size: 53px;
+                margin-left: 170px;
+                font-family: 'Intern',sans-serif;
+            }
+              form {
+                
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            
+            margin-bottom: 5px;
+             padding-left: 30px;
+             margin: 20px;
+            font-weight: bold;
+            font-size: 39px;
+            font-family: 'Intern',sans-serif;
+        }
+        input, select, textarea {
+            
+            width: 80%;
+            padding: 15px;
+            margin: 30px;
+            margin-bottom: 20px;
+            margin-left: 50px;
+            border: 1px solid #707070;
+            border-radius: 20px;
+            font-size: 39px;
+        }
+        textarea::-webkit-scrollbar {
+    width: 16px; /* 🎯 scrollbar width */
+}
+
+        input[type="file"] {
+            border: none;
+        }
+        button {
+            width: 45%;
+            height: 80px;
+            background-color: #0078ff;
+            color: #fff;
+            padding: 12px;
+            border: none;
+            border-radius: 20px;
+            font-size: 40px;
+            cursor: pointer;
+            margin-top: 80px;
+            margin-left: 460px;
+            transition: background 0.3s ease;
+        }
+        button:hover {
+            
+            background-color: #005fcc;
+        }
+         .success-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Black with slight transparency */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease;
+}
+
+.success-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.success-message {
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    animation: zoomIn 0.5s ease forwards;
+}
+
+.success-message img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+
+.success-message h2 {
+    font-size: 50px;
+    color: #00ff88; /* Green text */
+    margin-bottom: 10px;
+}
+
+.success-message p {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+/* Simple zoom animation */
+@keyframes zoomIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+            .about-company{
+                
+                width: 90%;
+                margin-top: 150px;
+            }
+            .about-company h2{
+                font-family: 'Intern',sans-serif;
+                font-size: 29px;
+                font-weight: 450;
+                margin-left: 50px;
+            }
+             .about-company p{
+                margin-top: 60px;
+                width: 95%;
+                font-family: 'Intern',sans-serif;
+                font-size: 15.5px;
+                font-weight: 400;
+                margin-left: 50px;
+            }
+              .about-company li{
+                margin-top: 80px;
+                width: 95%;
+                font-family: 'Intern',sans-serif;
+                font-size: 15.5px;
+                font-weight: 400;
+                margin-left: 50px;
+            }
+            .footer{
+                text-align:center;
+                 margin-top:50px;
+                  color:#888;
+            }
+            .foot{
+                width: 100%;
+            }
+            .foot h3{
+                  
+                width: 90%;
+                margin-top: 90px;
+                margin-left: 50px;
+                font-weight: 400;
+                font-size: 15px;
+                font-family: 'Intern',sans-serif;
+            }
+            .foot-d{
+                width: 108%;
+                height: 99px;
+                margin-left: -20px;
+                background-color: black;
+            }
+               .foot-d h4{
+              
+                color: white;
+                width: 95%;
+                margin-top: 90px;
+                margin-left: 50px;
+                font-weight: 400;
+                font-size: 38px;
+                padding-top: 22px;
+                margin-left: 80px;
+                font-family: 'Intern',sans-serif;
+            }
+        }
+           
+        </style>
+              <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body bgcolor="white">
+        <div class="navtop">
+            <img src="favicon1.png" alt="techpearl log">
+            <h1>Techpearl creator</h1>
+        </div>
+        <div class="banner">
+            <img src="banner.png">
+        </div>
+        <div class="form">
+            <div class="top">
+                <h3>Join Our Team at TechPearl Creators</h3>
+                <h4>We’re looking for passionate individuals to be part of our creative journey. Apply below to start your career with us! Kindly Fill the form and Submit, Our team will contact soon. </h4>
+
+            </div>
+            <div class="main-form">
+                <form>
+                    <h2>Job Application Form</h2>
+                    <label for="name">Full Name</label>
+                    <input type="text" maxlength="50" id="name" for="name" placeholder="Enter your Full Name" required/>
+
+                      <label for="mail">G-Mail</label>
+                    <input type="email" maxlength="50" id="mail" for="mail" placeholder="Enter your Mail" required/>
+
+                      <label for="Number" >Contact Number</label>
+                        <input type="tel" id="Number" placeholder="Enter your contact number"
+       maxlength="13" minlength="10" pattern="(\+91)?\d{10}" value="+91" required>
+
+
+                    <label for="Position">Position Applying For</label>
+                    <select id="Position" name="Position" required>
+                        <option value="">Select Position</option>
+                        <option value="Front-end Developer">Front-end Developer</option>
+                        <option value="Back-end Developer">Back-end Developer</option>
+                        <option value="DataBase Management">DataBase Management</option>
+                        <option value="Q/A Engineer">Q/A Engineer</option>
+                        <option value="Software Developer">Software Developer</option>
+                        <option value="Web Developer">Web Developer</option>
+                        <option value="Web Designer">Web Designer</option>
+                        <option value="UI / UX Designer">UI / UX Designer</option>
+                        <option value="Digital Marketting">Digital Marketting</option>
+                        <option value="Technical Support">Technical Support</option>
+                        <option value="Internship">Internship</option>
+                    </select>
+
+                    <label for="message">Why Should we hire you?</label>
+                    <textarea id="message" name="message" rows="12" placeholder="write a short message about your self..."></textarea>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+            <div class="success-overlay" id="successOverlay">
+    <div class="success-message">
+        <img src="tick.png" alt="Success Tick">
+        <h2>Form Submitted Successfully</h2>
+        <p>Thank you for applying! Our team will contact you soon.</p>
+    </div>
+</div>
+
+
+   <div class="about-company">
+    <h2>Why Work With Us?</h2>
+    <p>
+        TechPearl Creators is more than just a workplace—it’s where ideas come to life. 
+        As part of our team, you’ll get to:
+    </p>
+    <ul>
+        <li> Work on cutting-edge web and UI/UX projects</li>
+        <li> Grow in a creative, supportive environment</li>
+        <li> Collaborate with passionate designers & developers</li>
+        <li> Gain real-world experience with global clients</li>
+    </ul>
+    <p>
+        Whether you’re starting your career or looking to elevate it, TechPearl Creators is the place for innovation and growth.
+    </p>
+</div>
+
+        </div>
+     <footer>
+        <div class="foot">
+             <h3>📧 Have questions? Reach out to us at <a href="mailto:techpearlcreator@gmail.com">techpearlcreator@gmail.com</a></h3>
+           <div class="foot-d">
+             <h4>© 2025 TechPearl Creators. All rights reserved.</h4>
+           </div>
+        </div>
+</footer>
+
+<script src="index.js"></script>
+    </body>
+</html>
